@@ -2,7 +2,7 @@
 
 Build a home library catalog by scanning (or manually entering) ISBNs
 
-## Usage
+### Usage
 
 Put input files in the "input" folder. (There have to be at least two input files.) Filnames can be anything, but should probably be location-based (e.g. "bedroom-left-shelf.txt").
 
@@ -22,7 +22,7 @@ Create the HTMl and CSV reports (output.html / output.csv):
 
     python3 report.py
 
-## Prerequisites
+### Prerequisites
 
 * [isbnlib](https://github.com/xlcnd/isbnlib)
 * grep
