@@ -1,10 +1,10 @@
 ## ISBN-Scan
 
-Build a home library catalog by scanning (or manually entering) ISBNs
+Build a simply home library catalog by scanning (or manually entering) ISBNs
 
 ### Usage
 
-Put input files in the "input" folder. (There have to be at least two input files.) Filnames can be anything, but should probably be location-based (e.g. "bedroom-left-shelf.txt").
+Put input files in the "input" folder. There have to be at least two input files. Filnames can be anything, but should probably be location-based (e.g. "bedroom-left-shelf.txt").
 
 Each line in an input file is a book, either an ISBN (with or without the 978 prefix), or as
 
@@ -18,7 +18,7 @@ Verify.py can also be used to check for wrong or unknown ISBNs:
 
     python3 verify.py books.txt --noweb | fgrep "<<" | nl
 
-Create the HTMl and CSV reports (output.html / output.csv):
+Create the HTML and CSV reports (output.html and output.csv):
 
     python3 report.py
 
