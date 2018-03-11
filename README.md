@@ -4,7 +4,7 @@ Build a home library catalog by scanning (or manually entering) ISBNs
 
 ## Usage
 
-Put input files in the "input" folder. Filnames can be anything, but should probably be location-based (e.g. "bedroom-left-shelf.txt").
+Put input files in the "input" folder. (There have to be at least two input files.) Filnames can be anything, but should probably be location-based (e.g. "bedroom-left-shelf.txt").
 
 Each line in an input file is a book, either an ISBN (with or without the 978 prefix), or as
 
@@ -25,3 +25,4 @@ Create the HTMl and CSV reports (output.html / output.csv):
 ## Prerequisites
 
 * [isbnlib](https://github.com/xlcnd/isbnlib)
+* grep

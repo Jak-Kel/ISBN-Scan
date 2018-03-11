@@ -1,5 +1,4 @@
 9781449357016
-9781593275990
 1449355730
 Title of my book,Lastname,Firstname,2018,Python Publishing
 

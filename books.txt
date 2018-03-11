@@ -1,0 +1,6 @@
+input/sample2.txt:1590282418
+input/sample2.txt:1118891457
+input/sample2.txt:
+input/sample.txt:9781449357016
+input/sample.txt:1449355730
+input/sample.txt:Title of my book,Lastname,Firstname,2018,Python Publishing
